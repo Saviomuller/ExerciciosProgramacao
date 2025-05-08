@@ -1,0 +1,71 @@
+/* Fonte e fundo geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+/* Título */
+h1 {
+    font-size: 2em;
+    color: #2a7ae2;
+    margin-bottom: 30px;
+}
+
+/* Formulário */
+form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Label e input */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    background-color: #2a7ae2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1d5fc0;
+}
+
+/* Resultado */
+#resp {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #444;
+    background-color: #afe781;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
